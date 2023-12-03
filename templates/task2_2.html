@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}
+    Загрузите изображение
+{% endblock %}
+
+{% block content %}
+    <label for="avatar">Выбор изображения для загрузки:</label>
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+{% endblock %}
